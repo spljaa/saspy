@@ -2,17 +2,17 @@
 ---
 GLOBAL:
    processing:
-      auto-submit : off
+      auto-submit : on
    checks:
-      Attrib: off
-      Code-Review : on
+      Attrib: on
+      Code-Review : off
       Verified : off
-      Encoding: off
+      Encoding: on
       EOL : on
-      Issue-Tracking : on
+      Issue-Tracking : off
    validator-opts:
       Encoding:
          gitattribute-check-level: 1
       Issue-Tracking:
          Fixid : off
-         Jira : on
+         Jira : off
